@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>How not to die</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    
+</head>
+<body>
+<!--    <h1>How not to die</h1>-->
+   <nav class="p-nav">
+       <h2>Page level nav</h2>
+       <ul>
+           <li>Test</li>
+           <li>2</li>
+           <li>3</li>
+           <li>4</li>
+       </ul>
+   </nav>
+   <div class="notes">
+       <p>Up to <b>90%</b> of heart attacks could be avoided with lifestyle changes.</p>
+       <p>Studies on lapsed vegetarians: <b>146%</b> increase in odds of heart disease <b>166%</b> increase in diabetes, <b>231%</b> increase in odds for weight gain.</p>
+   </div>
+   
+    <div class="slide">
+        <img class="img-responsive center-block" src="1250066115.01.S001.LXXXXXXX.jpg" alt="How not to die : cover" width="300">
+    </div>
+    <div class="slide-holder">
+        <section id="heart" class="way-to-die">
+            <h1>Heart Disease</h1>
+            <span style="display:block; width:32px; height:36px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAADFklEQVRYR8WXLYgbQRTHXwoHkZErF45CZCoKR9XKUHVyiVpREaKiwnFUnCohKnLlQiFEVBzUnDwqSmWgJnLrAqlYGdUr/9m8zcvszM4kpPSZJLsz7/97H/ORVp7nL/QfrXVpgNlspsKZTCZeYV0coNfrKeHVanUZgFMdYnwcx7RcLr0gnBmQDn0iY2BfCC8ACMMhzBUZA3D+XaVwAsCRjMoFgbHjqKDohuhmOKQgbC7FSQB6V9miy8Yh3WVDNfwsADhI5nmlJ9P6eFeoyJqcY/wmL0sGmybpkT8ZSC0DavJmQ9O4XYOAeK9P1A5LAIbAc926IVG7W471BoB4/lyUAu35EQS/YyGGgPPhPlgWlDA/0lT9DONDRo0ZMAp4QtTCNzyw9UJrNBq9LBYLFblunIkgCKpNxZYJHwhTKSqAdVqomrkgACAb0UeYx6AceimqJoRjH4hzxJF+NDbtxrWGPFoFHB063ZQJOAJkp39YBXKcFJLPkfr5c0ctTb0Mxo1Ir7Pq4qijfFarxJB7KWQrjd6M1p1QQkAcu558xstw00kp6O9TtgxrusVTWmWssQfkzO12S6+v3pbrdy+O7zYAnhsUh9JAeJ2X5wG+o8GlL55Ty4AU50Fff36m398+0pvrX2onlCZ3Rfl8l5cbEJtJHO9qANgTRu/va5P5hPvnAFC2QfCeb1oltqY7OQM8geu9eiL6/ucT4bKJFYDf5wDs1kTpkmqnonUZcrQQHwwGRw3IkDrM/IFo/FDPBT/HpzzmjT3AJXj36p5up4flx0exdK8DIEp0vp4hBnj8ElH0ITsibNwHIAoImK3+MmobAOabordmQPYBQ2ALNkXHznkO7gamQ80G4bwT8nUMADCbc9cqOBsAW3CSJOqmK28+PoL6RpRlWXXD5nfWDOg3XkCgHLjruTKBXpDWHZZ9BAMEjDNrBLBdt3UIUxakmGxefEdDMwBDnASASavsVunifDeZFACwNPmuEUAJNfy7hWNuSozlqHWBpj5pLIGc2FQOva5NgvxO/+/oXIY+MC5hXVSOPwnAJXTO+79RYDGfXLwBSwAAAABJRU5ErkJggg==);"></span>
+            <p class="deaths">375,000</p>
+            <div class="details">
+                <img class="center-block" src="img/svg-veggies/broccoli.svg" width="50%" alt="">
+                <div class="name">Atherosclerosis</div>
+                <div class="causes">
+                    <ul>
+                        <li>High Blood Pressure</li>
+                        <li>Smoking</li>
+                        <li>High Cholesterol</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="lung" class="way-to-die">
+            <h1>Lung Diseases</h1>
+            <p class="deaths">296,000</p>
+            <div class="details">
+                <img class="center-block" src="img/svg-veggies/kale.svg" width="50%" alt="">
+                <ul class="types">
+                    <li>Lung Cancer</li>
+                    <li>COPD</li>
+                    <li>Asthma</li>
+                </ul>
+            </div>
+        </section>
+        <section id="iatrogenic" class="way-to-die">
+          <h1>Iatrogenic Causes</h1>
+          <p class="deaths">225,000</p>
+        </section>
+        <section id="brain" class="way-to-die">
+          <h1>Brain Diseases</h1>
+            <p class="deaths">214,000</p>
+          <div class="details">
+                <img class="center-block" src="img/svg-veggies/beans.svg" width="50%" alt="">
+                <ul class="types">
+                    <li>Stroke</li>
+                  <li>Alzheimer’s</li>
+                </ul>
+            </div>
+        </section>
+        <section id="digestive" class="way-to-die">
+            <h1>Digestive Cancers</h1>
+            <p class="deaths">106,000</p>
+            <div class="details">
+                <ul>
+                  <li>Colorectal </li>
+                  <li>Pancreatic</li>
+                  <li>Esophageal </li>
+                </ul>
+            </div>
+        </section>
+        <section id="infections" class="way-to-die">
+          <h1>Infections</h1>
+          <p class="deaths">95,000</p>
+          <div class="details">
+          	<ul class="types">
+          		<li>Respiratory</li>
+          		<li>Blood</li>
+          	</ul>
+          </div>
+        </section>
+        <section id="diabetes" class="way-to-die">
+            <h1>Diabetes</h1>
+            <p class="deaths">76,000</p>
+        </section>
+        <section id="blood-pressure" class="way-to-die">
+            <h1>High Blood Pressure</h1>
+          <p class="deaths">65,000</p>
+        </section>
+        <section id="liver" class="way-to-die">
+          <h1>Liver Diseases</h1>
+          <p class="deaths">60,000</p>
+        </section>
+        <section id="blood" class="way-to-die">
+            <h1>Blood Cancers</h1>
+            <p class="deaths">56,000</p>
+        </section>
+        <section id="kidney" class="way-to-die">
+            <h1>Kidney Disease</h1>
+            <p class="deaths">47,000</p>
+        </section>
+        <section id="breast" class="way-to-die">
+            <h1>Breast Cancer</h1>
+            <p class="deaths">41,000</p>
+        </section>
+        <section id="depression" class="way-to-die">
+            <h1>Suicidal Depression</h1>
+            <p class="deaths">41,000</p>
+        </section>
+        <section id="prostate" class="way-to-die">
+            <h1>Prostate Cancer</h1>
+            <p class="deaths">28,000</p>
+        </section>
+        <section id="parkinsons" class="way-to-die">
+            <h1>Parkinson's</h1>
+            <p class="deaths">25,000</p>
+        </section>
+    </div>
+
+
+    
+    <script>
+//        TweenMax.to("#heart", 6, {left:600, backgroundColor: "#f00"});
+        
+        var tl = new TimelineLite();
+        
+//        tl.to("#heart", 6, {x:500, ease:Elastic.easeOut})
+            tl.staggerFrom(".way-to-die", .5, {left: 0, top:0, rotation:360 , delay: 0.5}, 0.05);
+//            .from("#lung", 0.9, {left:-100, autoAlpha: 0}, 0)
+//            .from("#brain", 0.5, {scale:0.5, autoAlpha: 0}, "brain")
+//            .from("#digestive", 0.5, {left:100, autoAlpha: 0}, "brain+=0.25")
+//            .from("#infections", 0.5, {left:100, autoAlpha: 0}, "staggerlabel");
+        
+            tl.pause();
+
+            
+    
+//        tl.seek("staggerlabel");
+//        tl.timeScale(1);
+        
+        $(document).ready(function(){
+
+            $(".details").hide();
+            
+            $(".way-to-die").click(function(e){	  				
+				console.log($(e.currentTarget).children(".details").slideToggle());
+            });
+            
+            var thing = ["Thing 1", "Thing 2"];
+            thing.push("Stuff");
+            
+            console.log(thing);
+        });
+
+
+
+        
+        
+    </script>
+</body>
+</html>
