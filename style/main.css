@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: Montserrat;
-    background-color: #333;
+    background-color: rebeccapurple;
     margin: 0;
 }
 
@@ -68,22 +72,10 @@ p {
 
 
 
-
-
-#lung {
-/*
-    position: absolute;
-    left: 270px;
-    top: 300px;
-*/
-}
-
 #brain {
-/*
     position: absolute;
     left: 270px;
     top: 220px;
-*/
 }
 
 #digestive {
